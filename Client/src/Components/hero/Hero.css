@@ -1,0 +1,79 @@
+body {
+    margin:0;
+    padding:0;
+   box-sizing:border-box;
+    }
+   
+   .block {
+     height: 99vh;
+     background-color:rgb(120, 89, 255);
+     border-bottom-left-radius: 570px;
+     
+     border: 2px solid rgb(131, 108, 238);
+     margin: -1px -14px 0px -19px;
+     z-index: -1;
+   }
+
+   .heading-text{
+       color: white;
+       position: relative;
+       font-size: 75px;
+       font-weight: 700;
+       margin: auto;
+       top: 230px;
+       left: 280px;
+       z-index: 1;
+   }
+
+   .text-parah p{
+    top: 250px;
+    left: 280px;
+    position: relative;
+    color: white;
+    font-size: 19px;
+    font-weight: 300;
+    z-index: 1;
+
+   }
+
+   .flex-container{
+    top: 278px;
+    left: 280px;
+    position: relative;
+   
+
+   }
+   .cc{
+       display: flex;
+       flex-direction: row;
+       
+       
+      
+   }
+   .bttn{
+       background-color: white;
+       border-radius: 17px;
+       border: 2px solid white;
+       height: 70px;
+       width: 160px;
+       color: rgb(156, 133, 255);
+       font-size: 15px;
+       font-weight:700;
+       cursor: pointer;
+       position: relative;
+       top: 5px;
+       left:4px;
+       z-index: 1;
+
+       
+      
+
+   }
+   .anchor a{
+       color: white;
+       font-size: 19px;
+       position: relative;
+       left: 40px;
+       top: 20px;
+      
+   }

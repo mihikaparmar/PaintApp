@@ -1,0 +1,110 @@
+.container{
+    margin: 3% auto;
+    width: fit-content;
+    height: fit-content;
+    position: relative;
+}
+
+::selection {
+    background-color: transparent;
+}
+
+.color-icon{
+     width: 30px;
+     height: 30px;
+     margin:3px;
+     float:left;
+     position: relative;
+     border: 1px solid white;
+}
+.color-icon:hover{
+    box-shadow: 1px 1px 1px 1px rgb(0,0,0,0.4);
+    cursor: pointer;
+}
+#top-page{
+    background-color: rgba(10, 107, 253, 0.863);
+    border-radius: 10px 10px 0px 0px;
+    padding-top: 5px;
+    height: 25px;
+    width:800px;
+}
+#top-page span{
+    font-family: monospace;
+    padding: 10px 0 0 5px;
+    color: white;
+    display:inline;
+}
+.tool-icon{
+    cursor: pointer;
+    width:33px;
+}
+
+.clicked-tool{
+    background-color: rgb(194, 199, 228);
+    cursor: pointer;
+    width:33px;
+}
+
+#top-page > span:nth-child(2){
+    margin-left: 575px;
+}
+
+#top-page > span:nth-child(2):hover{
+    margin-left: 575px;
+    cursor: pointer;
+}
+
+
+#color-grid{
+    padding: 10px;
+    width:600px;
+}
+
+#header{
+    background-color: lightgrey;
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+    height:80px;
+    align-items: center;
+}
+
+.selected-color{
+    position: relative;
+    left: -10px;
+    top: 5px;
+    float: left;
+    display: flex;
+    justify-content: space-between;
+    width: 150px;
+}
+
+.selected-color div{
+    width: 20px;
+    height: 20px;
+    margin:3px;
+    border-radius: 50%;
+    float:left;
+    position: relative;
+    border: 1px solid white;
+    top: -5px;
+    left: -80px;
+}
+
+.selected-box{
+    border: 1px 1px black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.selected-tool{
+    float: right;
+    width: 60px;
+    left: -60px;
+    position: relative;
+}
+
+.selected-tool img{
+    position: relative;
+    top: 2.5px;
+}
